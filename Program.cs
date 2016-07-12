@@ -10,6 +10,8 @@ namespace Cheers
         public static void Main(string[] args)
         {
             Console.WriteLine("Whats your name?");
+            Console.Write("> ");
+            String user_name = Console.ReadLine();
         }
-    }      
-}    
+    }
+}
